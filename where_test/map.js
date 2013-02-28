@@ -110,14 +110,14 @@ function getLocations(){
 function renderMap(){
     me = new google.maps.LatLng(myLat,myLng);
     map.panTo(me);
-    marker = new google.maps.Marker({
+    myMarker = new google.maps.Marker({
         position: me,
         title: "Your location"
     });
-    marker.setMap(map);
-    google.maps.event.addListener(marker,'click', function(){
-        infowindow.setContent(marker.title);
-        infowindow.open(map,marker);
+    myMarker.setMap(map);
+    google.maps.event.addListener(myMarker,'click', function(){
+        infowindow.setContent(myMarker.title);
+        infowindow.open(map,myMarker);
     });
 
     var myRequest = {
