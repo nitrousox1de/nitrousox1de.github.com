@@ -110,7 +110,7 @@ function getLocations(){
 function renderMap(){
     me = new google.maps.LatLng(myLat,myLng);
     map.panTo(me);
-    marker = new googlemaps.Marker({
+    marker = new google.maps.Marker({
         position: me,
         title: "Your location"
     });
