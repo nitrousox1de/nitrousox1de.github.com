@@ -2,18 +2,38 @@
 
 <html>
 <head>
-    <title>Andrew Li - Index</title>
+    <title>Andrew Li</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="css/desktop.css">
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/buttons.css">
 </head>
 
 
 <body>
-    <h1>Andrew Li</h1>
-    <p>
-    <p>
-        <!--<a href="Andrew_Li_resume.pdf"> Link to my resume </a> <br /> -->
-        <a href="bio.html"> Link to my bio </a> <br />
-    </p>
+    <div id='page-frame'>
+        <div id='name'>ANDREW LI</div>
+        <div id='desc'>
+            <span id="typed"></span>
+        </div>
+        <div id='bar'></div>
+        <div id="nav-bar" class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn sharp dropdown-toggle btn-warning gradient" id="dropdownMenu1" data-toggle="dropdown">Tools <span class="caret"></span></button>
+             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://nitrousox1de.github.io/capsite/">CAP Sites</a></li>
+              </ul>
+            <button type="button" class="btn btn-success gradient">Bio</button>
+            <button type="button" class="btn btn-info gradient">Resume</button>
+            <button type="button" class="btn sharp btn-danger gradient">Contact</button>
+        </div>
+        <div id='cons'>Page under construction!</div>
+    </div>
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/typed.min.js"></script>
+
 </body>
 </html>

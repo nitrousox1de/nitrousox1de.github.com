@@ -1,0 +1,71 @@
+#page-frame {
+    text-align: center;
+
+    width: 800px;
+    height: 400px;
+
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    margin-left: -400px;
+    /*background-color: gray;*/
+}
+
+#name {
+    font-family: 'Inconsolata', Arial, serif;
+    font-size: 55px;
+}
+
+#typed{
+    font-family: 'Inconsolata', Arial, serif;
+    font-size: 20px;
+}
+
+#bar{
+    width: 240px;
+    height: 2px;
+
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+}
+
+#nav-bar{
+    margin-top: 15px;
+}
+
+.typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
