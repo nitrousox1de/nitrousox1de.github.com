@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $("#typed").typed({
-        strings: ["Medical Student", "Computer Programmer"],
+        strings: ["Medical Student", "Programmer"],
         typeSpeed: 30,
         backDelay: 2000,
         loop: true,
